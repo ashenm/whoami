@@ -1,0 +1,30 @@
+{
+  "name": "whoami",
+  "version": "0.0.1",
+  "description": "A freeCodeCamp API Project - Returns user-agent OS, IP address, and language",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashenm/whoami.git"
+  },
+  "keywords": [
+    "ashen",
+    "gunaratne",
+    "freecodecamp",
+    "projects",
+    "api"
+  ],
+  "author": "Ashen Gunaratne",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/ashenm/whoami/issues"
+  },
+  "homepage": "https://github.com/ashenm/whoami#readme",
+  "dependencies": {
+    "express": "^4"
+  }
+}
