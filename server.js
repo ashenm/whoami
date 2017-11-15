@@ -10,6 +10,9 @@
 const express = require('express');
 const app = express();
 
+// trust all private IP addresses
+app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal']);
+
 app.all('/', (request, response) => {
   response.json({
     ipaddress: request.ip,
